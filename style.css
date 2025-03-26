@@ -1,0 +1,109 @@
+/* Page Background and Font */
+body {
+    background-color: #f0f0f0;  /* Light gray background */
+    font-family: 'Arial', sans-serif;  /* Web-safe font */
+    margin: 0;
+    padding: 0;
+    color: #333;  /* Default text color */
+}
+
+/* Header Styling */
+header {
+    background-color: #333;  /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;  /* Larger font size */
+    margin: 0;
+}
+
+/* Navigation Menu */
+nav a {
+    display: inline-block;  /* Make links block-level */
+    color: rgb(73, 10, 109);  /* Text color */
+    text-decoration: none;  /* Remove underline */
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    margin: 10px 20px;
+    background-color: white;  /* Dark background */
+    border-radius: 5px;  /* Rounded corners */
+}
+
+nav a:hover {
+    background-color: #555;  /* Lighter background on hover */
+    color: #fff;  /* Text color change on hover */
+}
+
+/* Sections Styling */
+section {
+    margin: 20px 250px 20px 250px;  /* Center the section horizontally and add vertical margin */
+
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+}
+
+
+
+/* List Styling */
+ul li {
+    font-style: italic;  /* Italic text */
+    color: #555;  /* Dark gray text */
+    padding: 8px;
+    border: 1px solid #ccc;  /* Border around list items */
+    background-color: #cfd9f5;  /* Light background color */
+    margin-bottom: 5px;  /* Space between items */
+    border-radius: 4px;  /* Rounded corners for list items */
+}
+
+/* Contact Form Styling */
+form div, p {
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 12px 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;  /* Hover effect on button */
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;  /* Center the footer text */
+    padding: 20px;  /* Add padding to space out the content */
+    font-size: 0.8rem;  /* Make the footer text smaller */
+    background-color: #070607;  /* Purple background */
+    color: white;  /* White text */
+    border-top: 2px solid #4a148c;  /* Slight border on top of the footer */
+}
+
+footer p {
+    font-size: 0.8rem;  /* Smaller text size for footer */
+    margin: 0;
+}
+
+
+

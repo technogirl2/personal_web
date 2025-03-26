@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Angela Liang's Profile</title>
+   
+</head>
+<body>
+
+    <header>
+        <h1>Angela Liang</h1>
+        <nav>
+            <a href="#about">About Me</a> 
+            <a href="#hobbies">Hobbies</a> 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Angela Liang. I'm passionate about technology and design. I have a background in Computer Science, and one interesting fact about me is that I love cooking.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li><strong>Reading</strong>: I love diving into novels, especially fantasy and science fiction. Books take me to new worlds!</li>
+            <li><strong>Cooking</strong>: Experimenting with new recipes and flavors is something I deeply enjoy. It’s both a creative and relaxing outlet for me.</li>
+            <li><strong>Coding</strong>: I spend a lot of time learning new programming languages and building web projects.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email me at <a href="mailto:ange.liang@mail.utoronto.ca">ange.liang@mail.utoronto.ca</a> or fill out the following form:</p>
+        <form  method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Angela Liang. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
